@@ -1,0 +1,19 @@
+{
+ "version":1,"purpose":"Finite-budget sensitivity of conditional coverage to the attainable slope gap (Proposition 2); not an asymptotic proof or operator-versus-trace experiment",
+ "design_status":"Fixed before this new run; informed by existing manuscript and earlier experiments, not study-wide prospective preregistration",
+ "d":1,"N":32769,"k_values":[2,4,8],"n_values":[128,512,2048],"a":1.5,"s":0.75,"c":0.4,"sigma":0.2,
+ "X":"(1,sqrt(2)cos(2pi*i/N)); identical for all methods and k", "f":"0, fixed before labels; theory mechanism only, no claim of useful prediction performance",
+ "field":"Delta=Zc*sqrt(2)cos(2pi*(L+1)*i/N)+Zs*sqrt(2)sin(2pi*(L+1)*i/N)+sigma*epsilon, L=4k+3; Zc,Zs independent N(0,k^-a); epsilon iid N(0,1)",
+ "acquisition":"independent Bernoulli pi=(n/N)lambda, lambda=1+c*k^-s*sqrt(2)cos(2pi*L*i/N)",
+ "population":"all N periodic grid sites; no masks or exclusions", "fields":16,"labels_per_field":64,"master_seed":2026100501,
+ "rng":"numpy PCG64 via SeedSequence([master_seed,k,field,stream]); stream0 field, stream1 labels; uniforms shared across all n and methods within k/field/label; k cells use separate draws",
+ "methods":["target_hard_radius_k","target_soft_radius_2k","target_soft_bc_radius_2k","HT_oracle"],
+ "penalty":"normalized Lambda=0 through k; (h/k)^4 above k; Gamma=n*Lambda fixed; no tuning or candidate selection",
+ "covariance":"complete inclusion derivative non-FPC for feasible estimates; known-pi design variance estimate with FPC for HT; oracle population linearization V for diagnostics only",
+ "confidence":0.95,"qr_rank_relative_tolerance":1e-12,"covariance_eigen_ratio_tolerance":1e-10,"analytic_check_absolute_tolerance":1e-10,
+ "failure_policy":"preserve every attempt and reason; no redraw, pseudoinverse, clipping or adaptive ridge; invalid joint regions count as noncoverage, marginal invalidity separately counted",
+ "metrics":["estimate","true beta","G","linear term","remainder","Vhat","oracle V","marginal coverage and width","joint coverage","sample size","condition R","oracle noncentrality","Gaussian shifted-interval predicted conditional coverage"],
+ "uncertainty":"field-cluster MCSE: SD of field-level coverage / sqrt(16); nested independent labels within fields; paired comparisons use field-level paired differences",
+ "expected_attempts":36864,"resources":"single BLAS thread, sequential; estimate under 1 GiB RAM and under 0.5 GiB output; checkpoint each cell/field; interrupted attempts logged, do not silently extend repetitions",
+ "pilot":"first k,n,field,label deterministic pipeline check on same frozen inputs; engineering check/replay, not additional replicate or independent validation"
+}
