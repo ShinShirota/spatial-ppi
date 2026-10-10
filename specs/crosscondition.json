@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "created_utc": "2026-10-10T00:23:50.216535+00:00",
+  "kind": "retrospective reaggregation of previously inspected saved results, not prospective preregistration",
+  "inputs": "runs/lucas_replay_20260917/full",
+  "population": "2665 joined Estonia LUCAS2018 woodland sites, fixed WorldCover2021 tree-cover predictions and original support; no new masks",
+  "estimand": "fixed census least-squares coefficients; east_per100km and north_per100km",
+  "methods": [
+    "map_spatial_score",
+    "target_map_spatial"
+  ],
+  "basis": "same map7; unpenalized",
+  "prediction_variants": [
+    "WorldCover",
+    "zero"
+  ],
+  "scenarios": [
+    "uniform",
+    "map",
+    "map_east"
+  ],
+  "budgets": [
+    100,
+    250,
+    500
+  ],
+  "expected_repetitions": 2000,
+  "covariance": "saved covariance (complete inclusion derivative); not jackknife",
+  "coverage": "nominal 95%, scipy norm.ppf(.975); finite error and finite positive marginal variance; failed/undefined intervals count as noncoverage; no dropped attempts",
+  "paired_mcse": "100*sd(I_T-I_C,ddof=1)/sqrt(B), pairing by scenario,budget,row index of shared labels, separate prediction/coordinate; not field-cluster",
+  "width": "mean among valid marginal intervals; report count",
+  "rmse": "sqrt(mean(error^2)) among finite estimates; report count and not impute failed estimates",
+  "gap": "saved method-specific gap, never finite-sample bias",
+  "oracle": "saved oracle_covariance only; report gap/sqrt(Vjj) and mean Vhat/Vjj over valid intervals; missing if invalid",
+  "checks": "match saved summaries and paired summaries; sizes=labels.sum; original stage11 labels equal; pi=(n/N)*normalized intensity; X in map7; uniform gap zero; gap budget invariance",
+  "tolerances": {
+    "numeric_absolute": 1e-10,
+    "numeric_relative": 1e-08,
+    "uniform_gap_absolute": 1e-10,
+    "gap_budget_absolute": 1e-12,
+    "pi_absolute": 1e-12,
+    "span_relative": 1e-10
+  },
+  "new_randomness": "none; no simulation or refitting; inherited seeds unchanged",
+  "output": "worldcover18rows, f0 18rows, pairing audit, report, manifests, QA, environment and run log"
+}

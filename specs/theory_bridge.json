@@ -1,0 +1,15 @@
+{
+ "kind":"static theorem-to-code audit plus deterministic synthetic identity checks; not scientific performance run or proof certification",
+ "population":"N=41 periodic 1D deterministic grid; X=[1,cos1+0.4cos2,sin1+0.3sin2], B=[1,sqrt2 cos1,sqrt2 sin1,sqrt2 cos2,sqrt2 sin2]",
+ "labels":"indices with index mod 3 != 0; deterministic, no label draw",
+ "n":17,
+ "rho":[0,0,0,0.7,1.3],
+ "response":"Y=0.5+cos1+0.7sin2+0.2cos3; f=0.2cos3",
+ "checks":["normalized phi=n psi", "covariance=sum psi psi^T=sum phi phi^T/n^2", "finite difference full inclusion derivative at fixed Gamma", "hard-space prediction shift invariance", "scientific X recoding", "off-sample Y perturbation cannot change feasible fit"],
+ "methods":"uncorrected and corrected targeted fits; fixed penalties; all checks retained",
+ "tolerance":{"identity_atol":1e-10,"finite_difference_atol":2e-7,"rtol":0,"h":1e-5,"reason":"identity tolerance stricter than inherited estimate1e-8; inherited derivative tolerance2e-7, no changes after inspection"},
+ "diagnostics":"size of omitted second term (no target magnitude required); read-only pi ranges from all9 LUCAS replay cells; n/N and max-pi FPC envelope",
+ "seeds":null,
+ "budget":"one deterministic frame, two fits plus finite perturbations at every selected site; no performance simulation",
+ "preserve":"raw/legacy/manuscript/existing results unchanged"
+}

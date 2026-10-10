@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-10T11:14:14.454774+00:00",
+  "purpose": "portable same-seed/same-input release replay; not independent third-party reproduction",
+  "original_protocols": [
+    "inputs/protocol/protocol.json",
+    "gap/spec_v1.json"
+  ],
+  "scope": "all ten manuscript tables; same populations/support/masks/covariates/methods and tuning; no new analysis choices",
+  "lucas": "all 18000 saved masks unchanged; smoke first10 per cell; full2000 per cell",
+  "mechanism": "original32 fields,500 labels per cell; all original budgets/scenarios; no new RNG seeds",
+  "gap": "original seed2026100501; pilot original --pilot path; full36864 method evaluations",
+  "directional": "seed2026100901; smoke fields2 labels2; full fields128 labels128 with uniform control; original operations unchanged",
+  "metrics": "all-attempt marginal/joint coverage, MCSE preserving original crossed/field dependence, RMSE,width,gap; exceptions/undefined separately retained",
+  "tolerances": {
+    "base_and_gap": "absolute1e-8 + relative1e-10*abs(reference); discrete/nonfinite exact",
+    "directional": "absolute5.1e-8 + relative1e-10*abs(reference), reflects original CSV 10 significant digit rounding; discrete fields exact",
+    "table": "exact signed decimal strings at manuscript precision",
+    "crosscondition": "absolute1e-10 + relative1e-8*abs(reference)"
+  },
+  "output_policy": "every attempt in new output/log directory; preserve failures; no redraw or overwrite",
+  "environment": "current project .venv; record exact runtime/BLAS/GDAL/PROJ; no third-party/new-machine claim",
+  "scientific_changes": "none; required-array/column extraction verified exact; any future change needs versioned amendment"
+}
