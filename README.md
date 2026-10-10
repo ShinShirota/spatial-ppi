@@ -4,19 +4,19 @@ This code supports **Conditional validity of prediction-powered inference for sp
 
 ## Current availability
 
-The 44-file code/documentation candidate is available in this repository. The data/reference ZIP is not yet publicly available. The archive names below describe the locally validated packaging plan; they are not download links. Full LUCAS replay and the combined manifest check require that separate bundle. No DOI or tagged release is claimed.
+The 44-file code/documentation candidate is available in this repository. The data/reference ZIP and its SHA256SUMS.txt are available from [release v0.1.0-candidate](https://github.com/ShinShirota/spatial-ppi/releases/tag/v0.1.0-candidate). Use the release assets for the data and the tagged source archive for code. Full LUCAS replay and the combined manifest check require that separate bundle. The release tag pins the associated code; no DOI is claimed.
 
 ## Archive assembly
 
 Extract `spatial-ppi-code-0.1.0-candidate.zip` and `spatial-ppi-data-0.1.0-candidate.zip` into the same parent directory. Both use the root `spatial-ppi-0.1.0-candidate/`; their files are disjoint. The data archive adds inputs/ and reference/, including a copy of the source notices in reference/. Run the commands below from that root. The code archive alone cannot reproduce the LUCAS analysis. Neither archive contains raw CSVs, TIFFs, manuscript files, virtual environments or development history.
 
-Check each downloaded archive against SHA256SUMS.txt before extracting. After assembly, `python code/verify_manifest.py` verifies the combined package. The archives have been assembled and checked locally, not uploaded.
+Check each downloaded archive against SHA256SUMS.txt before extracting. After assembly, `python code/verify_manifest.py` verifies the combined package. The data archive is published as a release asset; code can be obtained from the release tag. Merge the extracted inputs/ and reference/ directories into the code root.
 
 ## Environment
 
 Tested locally with Python 3.12.14 on macOS arm64 and Apple Accelerate; exact package versions are in requirements.txt and environment.json. Create a fresh virtual environment and install `python -m pip install -r requirements.txt`. This does not constitute third-party clean-environment validation.
 
-Run from the package root. `inputs/` and `reference/` are a separate local data/reference bundle, intentionally excluded from normal Git tracking. The scripts resolve these relative to their own location; no author storage or account is needed. The public availability of that bundle is still pending. A code-only release cannot yet be described as complete reproduction.
+Run from the package root. `inputs/` and `reference/` are a separate local data/reference bundle, intentionally excluded from normal Git tracking. The scripts resolve these relative to their own location; no author storage or account is needed. Download that bundle from the release and follow its source-data notices. Some directional outputs were retained as summaries only; the limitations below still apply.
 
 ## Verify and replay
 
