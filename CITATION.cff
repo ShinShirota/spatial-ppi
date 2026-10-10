@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Unreleased research software candidate; no public archive or DOI is claimed."
+title: "Conditional validity of prediction-powered inference for spatially dependent finite populations"
+authors:
+  - family-names: "Shirota"
+    given-names: "Shinichiro"
+version: "0.1.0-candidate"
+type: software
+license: BSD-3-Clause

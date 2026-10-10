@@ -1,0 +1,15 @@
+table,status,scope,rows,command
+Main1,PASS,full same-seed replay; exact displayed rows,5,experiment.py --dataset mechanism → summarize.py → build_tables.py
+Main2,PASS,full same-seed replay; exact displayed rows,12,experiment.py --dataset lucas → summarize.py → build_tables.py
+Main3,PASS,full same-seed replay; exact displayed rows,12,experiment.py --dataset lucas → summarize.py → build_tables.py
+S1,PASS,full same-seed replay; exact displayed rows,12,experiment.py --dataset lucas → summarize.py → build_tables.py
+S2,PASS,full same-seed replay; exact displayed rows,5,experiment.py --dataset lucas → summarize.py → build_tables.py
+S3,PASS,full same-seed replay; exact displayed rows,4,experiment.py --dataset lucas → summarize.py → build_tables.py
+S4,PASS,full same-seed replay; exact displayed rows,36,gap_run.py → gap_summarize.py → check_tables.py
+S5,PASS,full same-seed replay; exact displayed rows,18,directional.py --fields 128 --labels 128 --with-null → check_tables.py
+S6,PASS,full same-seed replay; exact displayed rows,6,directional.py --fields 128 --labels 128 --with-null → check_tables.py
+S7,PASS,full same-seed replay; exact displayed rows,9,experiment.py --dataset lucas → crosscondition.py → check_tables.py
+SVD/derivative/delete/remainder,PASS,independent numerical check or deterministic identity; not theorem proof,,audit_regression.py
+theory/code identities,PASS,independent numerical check or deterministic identity; not theorem proof,,theory_bridge.py
+slope boundary,PASS,independent numerical check or deterministic identity; not theorem proof,,slope_boundary.py
+source frame,PASS,independent numerical check or deterministic identity; not theorem proof,,rebuild_frame.py → compare_additional.py

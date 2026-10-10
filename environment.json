@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "os": "macOS-26.5-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "sympy": "1.14.0",
+    "threadpoolctl": "3.6.0",
+    "rasterio": "1.5.0",
+    "pyproj": "3.7.2"
+  },
+  "GDAL": "3.12.1",
+  "PROJ": "9.5.1",
+  "BLAS": "Apple Accelerate (version not reported by NumPy)"
+}
