@@ -1,11 +1,11 @@
 path,bytes,sha256,release_status
 .gitignore,71,c5bab4f14568b393c797dc6a23a1c3ad681302d23ba9107d1a64c8f9116801b4,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
-CITATION.cff,399,cc69db52d24cbace8807ecc08dc1ee9f643b03df50b6a44924a14749f3a0f85c,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
-DATA_SOURCES.md,3653,07a8b91d28155dca4fde394153e310035f46fc4a299d49bbe13d7b157f1aee66,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
+CITATION.cff,399,213d76a89548c63f481618e9454817f5faa564ecb23c974714d5ddc5a0c3b68f,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
+DATA_SOURCES.md,3940,0c5171b3b88ab1cd0fb70a35680d450c4924320ff4b8f92ebff1d0684a6d7855,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 INPUT_DICTIONARY.md,1986,ac92109911690057ce5623cb3529088d96bb35d42b6fc4273778245f23a5a7ad,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 LICENSE,1526,7214f0ddc2fb485c0a64b1ff77d9ae2a29bcf60fa622223b8ff850c264b0d686,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
-LICENSE_SCOPE.md,1160,7e18e69ed799ce01491c39618ef40378bb6984f9bc5e53a2b747fbfe4aa0b8a8,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
-README.md,6796,dea8f90ee13751c0182be50c561aca64d3a43bf9d85f1248d91055d788709c82,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
+LICENSE_SCOPE.md,1228,8ac6f56696d971280e1326f0eaeefd74eeeff097e2bc3894ab95a55c03a697ce,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
+README.md,8213,b1f12234f09827269f4613ce054a329bc5b3abdbbd9edcc12097d6f3f5616fec,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 TABLE_TO_CODE_MATRIX.md,1223,3e40b8fbaf41ae55f5ab12b4b708b406748e611662287653c7f0df52e2dddfac,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 audit/additional_comparison.json,15593,4119941566229386ddfdf1a124aff670e77b41a9b1f6f29d73b3773f28c0621d,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 audit/gap_comparison.json,303,c28869485bce1b80da73fef49e247799e4d6bba27cc431a1f6f58a57e1d6a9c0,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
@@ -46,7 +46,7 @@ inputs/source_snapshot/spatial_ppi_stage11/results/primary/population_inputs.npz
 inputs/source_snapshot/spatial_ppi_stage11/results/primary/uniform_n100.npz,727195,75133a4df6a24a7cf45127dbce26b690f18d382f5ed2e3b71450826d41dcbeed,Data/reference bundle unpublished
 inputs/source_snapshot/spatial_ppi_stage11/results/primary/uniform_n250.npz,955694,2854bff90110e5607c89055ea111f2a78cb9e2b4c1c24afbfe098e276380f910,Data/reference bundle unpublished
 inputs/source_snapshot/spatial_ppi_stage11/results/primary/uniform_n500.npz,1165620,7955de2ff14948727230d88d38ec68345aafe3be0338f37de3fe8f34670bb6b3,Data/reference bundle unpublished
-publication_gate.md,924,819b5dc3a94b0bb5742bba4d3e905b3827ed537306a9ceb8abf2bcf12f3c7f67,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
+publication_gate.md,1311,4a7a1cf884b36ee3af4a6e461631c1292550cefacb1e8f58a5225e42686097a3,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 reference/DATA_SOURCES.md,3597,46de38bfcc9a7759e50b0aaea3dceb7cf6f977ce6de6b845261c54b8afb0f4a8,Data/reference bundle unpublished
 reference/crosscondition/lucas_crosscondition_f0.csv,8664,43a45c6d5c8026b27b1a28cd6e639f95bba47032c71964a128cc8317e06088f9,Data/reference bundle unpublished
 reference/crosscondition/lucas_crosscondition_worldcover.csv,8795,7927f868f927555acdd95311b04ff83596fe2d1f7268743bc1b90b037f121e75,Data/reference bundle unpublished
@@ -111,4 +111,4 @@ specs/crosscondition.json,2129,db9c424c71606b444f2cbe2c191f77a13923380ecd3f7a0e5
 specs/replay_spec_v1.json,1706,2569bee8d0e5aed4bd4a14b4aae87e2b5cac19bc2687e52beac76f1774cd27ba,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 specs/theory_bridge.json,1374,42a813b4b9bb3dd1a023417fc4d70e26da0eaa27812bebdf6a8f81b8654a817b,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
 table_to_code_matrix.csv,1774,98a6ff2b922cd0de683b11188d418901e11ad5f9313b24d9a6768caa277e59d7,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
-third_party_rights.md,3613,7ace577e11c37110ebac1b20fc5ebde5c983fe9c2030722ebdf634bdcfe2bbe7,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md
+third_party_rights.md,3900,ce255262591f0172e6965c7a185177a60129b51095920d900071dad06d4d6a2f,Public code candidate; BSD-3-Clause scope in LICENSE_SCOPE.md

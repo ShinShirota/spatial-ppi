@@ -7,12 +7,12 @@
   {
     "path": "CITATION.cff",
     "bytes": 399,
-    "sha256": "cc69db52d24cbace8807ecc08dc1ee9f643b03df50b6a44924a14749f3a0f85c"
+    "sha256": "213d76a89548c63f481618e9454817f5faa564ecb23c974714d5ddc5a0c3b68f"
   },
   {
     "path": "DATA_SOURCES.md",
-    "bytes": 3653,
-    "sha256": "07a8b91d28155dca4fde394153e310035f46fc4a299d49bbe13d7b157f1aee66"
+    "bytes": 3940,
+    "sha256": "0c5171b3b88ab1cd0fb70a35680d450c4924320ff4b8f92ebff1d0684a6d7855"
   },
   {
     "path": "INPUT_DICTIONARY.md",
@@ -26,13 +26,13 @@
   },
   {
     "path": "LICENSE_SCOPE.md",
-    "bytes": 1160,
-    "sha256": "7e18e69ed799ce01491c39618ef40378bb6984f9bc5e53a2b747fbfe4aa0b8a8"
+    "bytes": 1228,
+    "sha256": "8ac6f56696d971280e1326f0eaeefd74eeeff097e2bc3894ab95a55c03a697ce"
   },
   {
     "path": "README.md",
-    "bytes": 6796,
-    "sha256": "dea8f90ee13751c0182be50c561aca64d3a43bf9d85f1248d91055d788709c82"
+    "bytes": 8213,
+    "sha256": "b1f12234f09827269f4613ce054a329bc5b3abdbbd9edcc12097d6f3f5616fec"
   },
   {
     "path": "TABLE_TO_CODE_MATRIX.md",
@@ -236,8 +236,8 @@
   },
   {
     "path": "publication_gate.md",
-    "bytes": 924,
-    "sha256": "819b5dc3a94b0bb5742bba4d3e905b3827ed537306a9ceb8abf2bcf12f3c7f67"
+    "bytes": 1311,
+    "sha256": "4a7a1cf884b36ee3af4a6e461631c1292550cefacb1e8f58a5225e42686097a3"
   },
   {
     "path": "reference/DATA_SOURCES.md",
@@ -561,7 +561,7 @@
   },
   {
     "path": "third_party_rights.md",
-    "bytes": 3613,
-    "sha256": "7ace577e11c37110ebac1b20fc5ebde5c983fe9c2030722ebdf634bdcfe2bbe7"
+    "bytes": 3900,
+    "sha256": "ce255262591f0172e6965c7a185177a60129b51095920d900071dad06d4d6a2f"
   }
 ]

@@ -1,16 +1,33 @@
-# Spatial prediction-powered inference: public code candidate
+# Spatial prediction-powered inference: reproducibility package
 
-This code supports **Conditional validity of prediction-powered inference for spatially dependent finite populations**. This is the public code candidate; the separate data/reference bundle is not yet published. The research software is licensed under BSD-3-Clause (LICENSE); its scope is specified in LICENSE_SCOPE.md. Third-party data retain their own terms. Code repository: https://github.com/ShinShirota/spatial-ppi . A persistent data archive and DOI have not yet been assigned. See DATA_SOURCES.md and third_party_rights.md.
+Code for **Conditional validity of prediction-powered inference for spatially dependent finite populations**. Version 0.1.1-candidate corrects distribution documentation only; scientific code and the data bundle are unchanged from v0.1.0-candidate. The software uses BSD-3-Clause; third-party data retain their own terms. No DOI is assigned.
 
-## Current availability
+## Current availability and download
 
-The 44-file code/documentation candidate is available in this repository. The data/reference ZIP and its SHA256SUMS.txt are available from [release v0.1.0-candidate](https://github.com/ShinShirota/spatial-ppi/releases/tag/v0.1.0-candidate). Use the release assets for the data and the tagged source archive for code. Full LUCAS replay and the combined manifest check require that separate bundle. The release tag pins the associated code; no DOI is claimed.
+Download **Source code (zip)** from this version's GitHub Release, or check out its tag. The v0.1.1-candidate source ZIP normally expands to `spatial-ppi-0.1.1-candidate/`.
 
-## Archive assembly
+The unchanged data ZIP and its separate checksum asset are available from [the v0.1.0-candidate data release](https://github.com/ShinShirota/spatial-ppi/releases/tag/v0.1.0-candidate):
 
-Extract `spatial-ppi-code-0.1.0-candidate.zip` and `spatial-ppi-data-0.1.0-candidate.zip` into the same parent directory. Both use the root `spatial-ppi-0.1.0-candidate/`; their files are disjoint. The data archive adds inputs/ and reference/, including a copy of the source notices in reference/. Run the commands below from that root. The code archive alone cannot reproduce the LUCAS analysis. Neither archive contains raw CSVs, TIFFs, manuscript files, virtual environments or development history.
+- `spatial-ppi-data-0.1.0-candidate.zip`
+- `SHA256SUMS.txt` (a separate release asset, not inside either ZIP)
 
-Check each downloaded archive against SHA256SUMS.txt before extracting. After assembly, `python code/verify_manifest.py` verifies the combined package. The data archive is published as a release asset; code can be obtained from the release tag. Merge the extracted inputs/ and reference/ directories into the code root.
+SHA256SUMS.txt covers **the data ZIP only**, not GitHub's automatically generated source archives. The data ZIP SHA-256 is `78a6f83dcc4f876676ad49a759c713f7881a33b76c84a8d64959fc8da2e91f5d` (139,665,116 bytes). These hashes check integrity; they are not an external signature.
+
+## Assembly
+
+Place both ZIPs and SHA256SUMS.txt in a new directory. On macOS:
+
+```sh
+shasum -a 256 -c SHA256SUMS.txt
+unzip spatial-ppi-0.1.1-candidate.zip
+unzip spatial-ppi-data-0.1.0-candidate.zip
+cp -R spatial-ppi-0.1.0-candidate/inputs spatial-ppi-0.1.1-candidate/
+cp -R spatial-ppi-0.1.0-candidate/reference spatial-ppi-0.1.1-candidate/
+cd spatial-ppi-0.1.1-candidate
+python code/verify_manifest.py
+```
+
+GitHub may name the downloaded source ZIP differently; use its actual filename. The data archive retains its original version/root intentionally. The combined manifest verifies 113 recorded files; it is not an external signature. Source rasters, photographs, manuscript files and virtual environments are excluded. Preserve the source-rights notices in `reference/`.
 
 ## Environment
 
@@ -63,3 +80,24 @@ See INPUT_DICTIONARY.md for response, prediction, coordinates, QR conventions an
 The fixed-frame target is a three-coefficient least-squares regression. Label sampling is conditional on that frame. Same-seed replay is distinct from independent SVD/derivative checks, and neither proves an asymptotic theorem. Preserve crossed or nested field/label dependence when interpreting MCSEs. True propensities/full outcomes are oracle diagnostics, not feasible tuning inputs. Signed slope weights are valid.
 
 The directional script retains field summaries and aggregate controls, not individual label-set records. It reports all failed evaluations; this replay reported zero. The original limitation remains explicit. Numerical comparisons use the tolerances in specs/replay_spec_v1.json. Publication gates are listed in publication_gate.md.
+
+## Table checks without manuscript TeX
+
+`check_tables.py` compares generated tables against the author's manuscript TeX, which is not distributed. A user without that TeX can instead compare the seven generated table files against the frozen reference files after the full LUCAS/mechanism runs and `build_tables.py` above:
+
+```sh
+python - <<'CHECK'
+from pathlib import Path
+names = ['mechanism', 'lucas_east', 'joint', 'lucas_north', 'paired', 'smalln', 'truth']
+failed = []
+for name in names:
+    filename = name + '_table.tex'
+    ok = (Path('outputs/tables_final') / filename).read_bytes() == (Path('reference/tables') / filename).read_bytes()
+    print(filename, 'PASS' if ok else 'FAIL')
+    if not ok:
+        failed.append(filename)
+raise SystemExit(bool(failed))
+CHECK
+```
+
+This checks Main Tables 1–3, Supplement Tables S1–S3, and the auxiliary truth table against the distributed reference; it does not independently validate their transcription into the manuscript. S4–S6 frozen display rows are also in `reference/tables/`. S7 is represented by the machine-readable cross-condition summaries in `reference/crosscondition/`; there is no standalone frozen S7 TeX file. The gap and additional-output comparisons above check their numerical sources. They should not be described as an automatic comparison of all ten tables to an undistributed manuscript.

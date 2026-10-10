@@ -1,3 +1,5 @@
+> Current distribution note (10 October 2026): the inspected data bundle is published with author authorization in GitHub release v0.1.0-candidate. Any pending-publication wording below records the earlier rights review, not the current release status. Source conditions are unchanged.
+
 # Third-party rights and release decision — 2026-10-10
 
 Official sources checked on 10 October 2026:

@@ -1,3 +1,5 @@
+> Current distribution note (10 October 2026): the inspected data bundle is published with author authorization in GitHub release v0.1.0-candidate. Any pending-publication wording below records the earlier rights review, not the current release status. Source conditions are unchanged.
+
 # Data sources and attribution
 
 Official source policies rechecked on 10 October 2026. This file documents source terms separately from the software's BSD-3-Clause licence; it does not authorize uploading this package.
