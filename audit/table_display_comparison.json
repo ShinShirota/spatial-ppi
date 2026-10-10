@@ -1,0 +1,72 @@
+[
+  {
+    "table": "Main1",
+    "passed": true,
+    "rows": 5,
+    "actual_rows": 5,
+    "differences": []
+  },
+  {
+    "table": "Main2",
+    "passed": true,
+    "rows": 12,
+    "actual_rows": 12,
+    "differences": []
+  },
+  {
+    "table": "Main3",
+    "passed": true,
+    "rows": 12,
+    "actual_rows": 12,
+    "differences": []
+  },
+  {
+    "table": "S1",
+    "passed": true,
+    "rows": 12,
+    "actual_rows": 12,
+    "differences": []
+  },
+  {
+    "table": "S2",
+    "passed": true,
+    "rows": 5,
+    "actual_rows": 5,
+    "differences": []
+  },
+  {
+    "table": "S3",
+    "passed": true,
+    "rows": 4,
+    "actual_rows": 4,
+    "differences": []
+  },
+  {
+    "table": "S4",
+    "passed": true,
+    "rows": 36,
+    "actual_rows": 36,
+    "differences": []
+  },
+  {
+    "table": "S5",
+    "passed": true,
+    "rows": 18,
+    "actual_rows": 18,
+    "differences": []
+  },
+  {
+    "table": "S6",
+    "passed": true,
+    "rows": 6,
+    "actual_rows": 6,
+    "differences": []
+  },
+  {
+    "table": "S7",
+    "passed": true,
+    "rows": 9,
+    "actual_rows": 9,
+    "differences": []
+  }
+]

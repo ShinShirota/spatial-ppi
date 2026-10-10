@@ -1,0 +1,9 @@
+{
+  "attempts_compared": 36864,
+  "float_values_compared": 917733,
+  "max_absolute_difference": 0.0,
+  "tolerance": "1e-8 + 1e-10 * abs(reference)",
+  "discrete_values_and_nonfinite_masks": "exact",
+  "passed": true,
+  "scope": "same-seed same-environment packaging replay, not independent validation"
+}

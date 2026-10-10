@@ -1,0 +1,859 @@
+{
+  "passed": true,
+  "checks": 161,
+  "failures": [],
+  "details": [
+    {
+      "name": "cross_loading_n100.npz:est",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:jackknife",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:linear",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:remainder",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:success",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n100.npz:stats",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:labels",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n100.npz:sizes",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n100.npz:pi",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n100.npz:oracle_covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:est",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:jackknife",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:linear",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:remainder",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:success",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:stats",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:labels",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:sizes",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:pi",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n1600.npz:oracle_covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:est",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:jackknife",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:linear",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:remainder",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:success",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n400.npz:stats",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:labels",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n400.npz:sizes",
+      "passed": true
+    },
+    {
+      "name": "cross_loading_n400.npz:pi",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "cross_loading_n400.npz:oracle_covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:Y",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:f",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:X",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:J",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:L",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:Z",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:offsets",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:truth",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:x",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:g",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:field_coefficients",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:nugget",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:basis_one",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:basis_signal3",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population.npz:basis_product5",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:est",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:jackknife",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:linear",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:remainder",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:success",
+      "passed": true
+    },
+    {
+      "name": "uniform_n100.npz:stats",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:labels",
+      "passed": true
+    },
+    {
+      "name": "uniform_n100.npz:sizes",
+      "passed": true
+    },
+    {
+      "name": "uniform_n100.npz:pi",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n100.npz:oracle_covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:est",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:jackknife",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:linear",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:remainder",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:success",
+      "passed": true
+    },
+    {
+      "name": "uniform_n1600.npz:stats",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:labels",
+      "passed": true
+    },
+    {
+      "name": "uniform_n1600.npz:sizes",
+      "passed": true
+    },
+    {
+      "name": "uniform_n1600.npz:pi",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n1600.npz:oracle_covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:est",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:jackknife",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:linear",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:remainder",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:success",
+      "passed": true
+    },
+    {
+      "name": "uniform_n400.npz:stats",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:labels",
+      "passed": true
+    },
+    {
+      "name": "uniform_n400.npz:sizes",
+      "passed": true
+    },
+    {
+      "name": "uniform_n400.npz:pi",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "uniform_n400.npz:oracle_covariance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "joint_coverage.csv:dataset",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:scenario",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:n",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:method",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:prediction",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:group",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:variance",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:attempts",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:finite_intervals",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:covered",
+      "passed": true
+    },
+    {
+      "name": "joint_coverage.csv:coverage_all",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "joint_coverage.csv:coverage_finite",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "joint_coverage.csv:coverage_mcse",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:scenario",
+      "passed": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:n",
+      "passed": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:method",
+      "passed": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:attempts",
+      "passed": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:fit_success",
+      "passed": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:max_condition_R",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:max_leverage",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:signed_contrast_weights",
+      "passed": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:draws_with_negative_common_weights",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:max_absolute_weight",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "numerical_diagnostics.csv:max_total_absolute_weight",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "paired_comparisons.csv:scenario",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:n",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:prediction",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:coefficient",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:variance",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:plus",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:minus",
+      "passed": true
+    },
+    {
+      "name": "paired_comparisons.csv:coverage_difference",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "paired_comparisons.csv:coverage_difference_mcse",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "paired_comparisons.csv:mse_difference",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "paired_comparisons.csv:mse_difference_mcse",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population_diagnostics.csv:scenario",
+      "passed": true
+    },
+    {
+      "name": "population_diagnostics.csv:n",
+      "passed": true
+    },
+    {
+      "name": "population_diagnostics.csv:method",
+      "passed": true
+    },
+    {
+      "name": "population_diagnostics.csv:response",
+      "passed": true
+    },
+    {
+      "name": "population_diagnostics.csv:coefficient",
+      "passed": true
+    },
+    {
+      "name": "population_diagnostics.csv:truth",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population_diagnostics.csv:gap",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population_diagnostics.csv:linear_design_variance",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population_diagnostics.csv:pi_min",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "population_diagnostics.csv:pi_max",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:dataset",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:scenario",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:n",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:method",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:prediction",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:coefficient",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:variance",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:attempts",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:finite_intervals",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:covered",
+      "passed": true
+    },
+    {
+      "name": "summary.csv:coverage_all",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:coverage_finite",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:coverage_mcse",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:coverage_population_p10",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:coverage_population_p90",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:bias",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:bias_rms_across_populations",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:bias_mcse",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:rmse",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:mean_mc_sd",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:mean_se",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:mean_width",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:truth_mean",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:gap_mean",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:gap_rms",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:oracle_linear_sd_mean",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:linear_rms",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:remainder_rms",
+      "passed": true,
+      "max_abs": 0.0,
+      "masks_match": true
+    },
+    {
+      "name": "summary.csv:estimate_success",
+      "passed": true
+    }
+  ]
+}

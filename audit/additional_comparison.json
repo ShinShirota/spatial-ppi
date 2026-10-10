@@ -1,0 +1,560 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "directional/summary/n",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/M",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/aligned_pct",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/orthogonal_pct",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/paired_diff_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/paired_mcse_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/aligned_mcse_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/orthogonal_mcse_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/predicted_al_pct",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/predicted_off_pct",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/aligned_width",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/orth_width",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/aligned_rmse",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/orth_rmse",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/summary/method",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "directional/field_level/field_id",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/n",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/M",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/covariance",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "directional/field_level/method",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "directional/field_level/slope_coverage_field",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/intercept_coverage_field",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/slope_oracle_coverage_pred",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/slope_gap",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/intercept_gap",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/residual_energy",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/field_level/slope_ci_width_field",
+      "passed": true,
+      "max_absolute_difference": 1.000000082740371e-11
+    },
+    {
+      "name": "directional/field_level/slope_rmse_field",
+      "passed": true,
+      "max_absolute_difference": 1.000000082740371e-11
+    },
+    {
+      "name": "directional/field_level/label_repetitions",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/uniform_null/n",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/uniform_null/M",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/uniform_null/aligned_pct",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/uniform_null/orthogonal_pct",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/uniform_null/paired_diff_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "directional/uniform_null/paired_mcse_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/scenario",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/n",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/prediction",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/coefficient",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/attempts",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/label_budget_empirical_mean",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/max_pi",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/coverage_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/gap_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/RMSE_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/width_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/finite_estimates_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/valid_intervals_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/fit_failures_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/failed_or_undefined_count_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/oracle_variance_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/standardized_gap_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/mean_Vhat_over_oracle_V_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/coverage_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/gap_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/RMSE_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/width_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/finite_estimates_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/valid_intervals_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/fit_failures_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/failed_or_undefined_count_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/oracle_variance_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/standardized_gap_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/mean_Vhat_over_oracle_V_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/difference_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/paired_mcse_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/abs_gap_change",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/target_only_covered",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_f0.csv/common_only_covered",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/scenario",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/n",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/prediction",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/coefficient",
+      "passed": true,
+      "max_absolute_difference": null
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/attempts",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/label_budget_empirical_mean",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/max_pi",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/coverage_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/gap_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/RMSE_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/width_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/finite_estimates_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/valid_intervals_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/fit_failures_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/failed_or_undefined_count_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/oracle_variance_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/standardized_gap_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/mean_Vhat_over_oracle_V_C",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/coverage_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/gap_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/RMSE_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/width_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/finite_estimates_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/valid_intervals_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/fit_failures_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/failed_or_undefined_count_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/oracle_variance_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/standardized_gap_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/mean_Vhat_over_oracle_V_T",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/difference_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/paired_mcse_pp",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/abs_gap_change",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/target_only_covered",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "crosscondition/lucas_crosscondition_worldcover.csv/common_only_covered",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "frame/Y",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "frame/f",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "frame/B",
+      "passed": true,
+      "max_absolute_difference": 1.6915358003188885e-12
+    },
+    {
+      "name": "frame/Bmap",
+      "passed": true,
+      "max_absolute_difference": 1.688427175849938e-12
+    },
+    {
+      "name": "frame/POINT_ID",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "frame/POINT_ID",
+      "passed": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "frame/easting_3035",
+      "passed": true,
+      "max_absolute_difference": 2.7939677238464355e-09
+    },
+    {
+      "name": "frame/northing_3035",
+      "passed": true,
+      "max_absolute_difference": 9.778887033462524e-09
+    }
+  ]
+}
