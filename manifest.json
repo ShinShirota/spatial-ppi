@@ -6,13 +6,13 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 343,
-    "sha256": "9f860d8947561ed62353726f42e29cfa4ae2171b5a7d2d57f853b0515232d8c2"
+    "bytes": 399,
+    "sha256": "cc69db52d24cbace8807ecc08dc1ee9f643b03df50b6a44924a14749f3a0f85c"
   },
   {
     "path": "DATA_SOURCES.md",
-    "bytes": 3597,
-    "sha256": "46de38bfcc9a7759e50b0aaea3dceb7cf6f977ce6de6b845261c54b8afb0f4a8"
+    "bytes": 3653,
+    "sha256": "07a8b91d28155dca4fde394153e310035f46fc4a299d49bbe13d7b157f1aee66"
   },
   {
     "path": "INPUT_DICTIONARY.md",
@@ -26,13 +26,13 @@
   },
   {
     "path": "LICENSE_SCOPE.md",
-    "bytes": 1097,
-    "sha256": "60e4ec98d83fb8222a5d9f8547d284a0dd46c3567735ca14f2566bfe2f365669"
+    "bytes": 1160,
+    "sha256": "7e18e69ed799ce01491c39618ef40378bb6984f9bc5e53a2b747fbfe4aa0b8a8"
   },
   {
     "path": "README.md",
-    "bytes": 6049,
-    "sha256": "8284f8d5926a73f48b3d3b70aac06a47caa810a3819d0087353e6bf1bda4f1d1"
+    "bytes": 6543,
+    "sha256": "6a6e6ed86f3e4603cb789b21c24f2dcbfacf6e4b7f29b2005e881942c301d65d"
   },
   {
     "path": "TABLE_TO_CODE_MATRIX.md",
@@ -236,8 +236,8 @@
   },
   {
     "path": "publication_gate.md",
-    "bytes": 1679,
-    "sha256": "a82255956a414fc817fa30f0d4f6ed532837144e093efedb39fca611a80a9180"
+    "bytes": 924,
+    "sha256": "819b5dc3a94b0bb5742bba4d3e905b3827ed537306a9ceb8abf2bcf12f3c7f67"
   },
   {
     "path": "reference/DATA_SOURCES.md",

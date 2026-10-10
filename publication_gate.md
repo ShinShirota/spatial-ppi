@@ -1,16 +1,9 @@
-# Publication gate
+# Publication status
 
-Local numerical preparation: PASS for all ten displayed tables; full same-seed replay, source-frame rebuild and separate numerical checks completed. See replay_audit.md.
+The author authorized the public GitHub code repository at https://github.com/ShinShirota/spatial-ppi . Software licence: BSD-3-Clause. This commit publishes the prepared code and documentation.
 
-Publication remains **HOLD**:
+The separate data/reference bundle remains unpublished. Data redistribution review is complete for the inspected bundle under DATA_SOURCES.md and third_party_rights.md, but the destination and actual data upload require author authorization. No Zenodo record or DOI exists. No tagged release has been created.
 
-1. Software licence completed: BSD-3-Clause, with explicit scope excluding third-party source-data terms.
-2. Data-rights review completed for this exact minimal bundle: redistribution is supported by the reviewed source terms with the notices in DATA_SOURCES.md and third_party_rights.md retained. This item no longer blocks preparation; actual publication still requires author authorization.
-3. GitHub/Zenodo destination, actual file list and final public release require author authorization. No repository, upload, release or DOI has been created.
-4. No external third party has executed this in a clean environment. Do not claim independently reproduced.
-5. Directional individual label-set outputs are absent by original design; retain this limitation.
-6. A fresh candidate tree has no Git history. Existing research-repository history is not approved for publication. Start the eventual dedicated code repository from the selected candidate files only. Large reference/data outputs belong in a separate archival bundle, not regular code Git tracking.
+All ten manuscript tables passed local replay/display checks. No third-party clean-environment reproduction has been performed. The directional experiment's original individual label outputs are not retained. See replay_audit.md.
 
-Once publication is authorized and completed, record the real version URL/DOI and then update the manuscript availability statement. Until then the manuscript is unchanged.
-
-Local deliverables: separate code and data/reference ZIP archives, their file lists and SHA256 hashes. Actual publication requires the author to identify/approve the GitHub and/or Zenodo destination and these archive files.
+The manuscript is unchanged. Do not describe this code-only repository as a complete public reproduction package until the data/reference bundle has been released.

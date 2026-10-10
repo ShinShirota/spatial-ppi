@@ -1,6 +1,10 @@
-# Spatial prediction-powered inference: local release candidate
+# Spatial prediction-powered inference: public code candidate
 
-This code supports **Conditional validity of prediction-powered inference for spatially dependent finite populations**. This is an unreleased candidate. The research software is licensed under BSD-3-Clause (LICENSE); its scope is specified in LICENSE_SCOPE.md. Third-party data retain their own terms. The public archive destination has not yet been assigned. See DATA_SOURCES.md and third_party_rights.md.
+This code supports **Conditional validity of prediction-powered inference for spatially dependent finite populations**. This is the public code candidate; the separate data/reference bundle is not yet published. The research software is licensed under BSD-3-Clause (LICENSE); its scope is specified in LICENSE_SCOPE.md. Third-party data retain their own terms. Code repository: https://github.com/ShinShirota/spatial-ppi . A persistent data archive and DOI have not yet been assigned. See DATA_SOURCES.md and third_party_rights.md.
+
+## Current availability
+
+The 44-file code/documentation candidate is available in this repository. The data/reference ZIP is not yet publicly available. The archive names below describe the locally validated packaging plan; they are not download links. Full LUCAS replay and the combined manifest check require that separate bundle. No DOI or tagged release is claimed.
 
 ## Archive assembly
 
