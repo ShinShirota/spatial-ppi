@@ -7,3 +7,8 @@ The data redistribution review applies to this inspected bundle under DATA_SOURC
 Local replay/display checks passed. An additional supplied audit reports full LUCAS/mechanism replay and limited gap/directional checks in an existing environment; it is not a from-scratch environment or raw-source reconstruction audit. The directional experiment's individual label outputs were not retained. See replay_audit.md for the original local evidence and limitations.
 
 Code and the retained inputs/results are publicly accessible. This does not imply every individual simulation output was retained, third-party raw-data reconstruction was independently repeated, or the mathematical proofs were certified.
+
+
+## v0.2.0-candidate pilot addendum
+
+Supplement S6.6 / Table S8 is now distributed in the separate author-generated synthetic pilot archive. See [GROWING_RADIUS_PILOT.md](GROWING_RADIUS_PILOT.md) for scripts, complete retained outputs, rights, verification, and limitations. Original releases and their third-party rights remain unchanged.

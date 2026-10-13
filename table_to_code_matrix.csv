@@ -13,3 +13,4 @@ SVD/derivative/delete/remainder,PASS,independent numerical check or deterministi
 theory/code identities,PASS,independent numerical check or deterministic identity; not theorem proof,,theory_bridge.py
 slope boundary,PASS,independent numerical check or deterministic identity; not theorem proof,,slope_boundary.py
 source frame,PASS,independent numerical check or deterministic identity; not theorem proof,,rebuild_frame.py → compare_additional.py
+S8,PASS,saved-output reconciliation; no new full replay; separate growing-pilot archive,3,verify.py; pilot/run.py; pilot/summarize.py (inside growing-pilot archive)

@@ -1,10 +1,10 @@
 # Spatial prediction-powered inference: reproducibility package
 
-Code for **Conditional validity of prediction-powered inference for spatially dependent finite populations**. Version 0.1.1-candidate corrects distribution documentation only; scientific code and the data bundle are unchanged from v0.1.0-candidate. The software uses BSD-3-Clause; third-party data retain their own terms. No DOI is assigned.
+Code for **Conditional validity of prediction-powered inference for spatially dependent finite populations**. Version 0.2.0-candidate adds a self-contained growing-radius Gaussian pilot archive for Supplement S6.6 / Table S8. Existing scientific code and the v0.1.0 data bundle are unchanged. See [the pilot guide](GROWING_RADIUS_PILOT.md) for its separate download, verification, and replay commands. The software uses BSD-3-Clause; third-party data retain their own terms. No DOI is assigned.
 
 ## Current availability and download
 
-Download **Source code (zip)** from this version's GitHub Release, or check out its tag. The v0.1.1-candidate source ZIP normally expands to `spatial-ppi-0.1.1-candidate/`.
+Download **Source code (zip)** from this version's GitHub Release, or check out its tag. The v0.2.0-candidate source ZIP normally expands to `spatial-ppi-0.2.0-candidate/`.
 
 The unchanged data ZIP and its separate checksum asset are available from [the v0.1.0-candidate data release](https://github.com/ShinShirota/spatial-ppi/releases/tag/v0.1.0-candidate):
 
@@ -19,15 +19,15 @@ Place both ZIPs and SHA256SUMS.txt in a new directory. On macOS:
 
 ```sh
 shasum -a 256 -c SHA256SUMS.txt
-unzip spatial-ppi-0.1.1-candidate.zip
+unzip spatial-ppi-0.2.0-candidate.zip
 unzip spatial-ppi-data-0.1.0-candidate.zip
-cp -R spatial-ppi-0.1.0-candidate/inputs spatial-ppi-0.1.1-candidate/
-cp -R spatial-ppi-0.1.0-candidate/reference spatial-ppi-0.1.1-candidate/
-cd spatial-ppi-0.1.1-candidate
+cp -R spatial-ppi-0.1.0-candidate/inputs spatial-ppi-0.2.0-candidate/
+cp -R spatial-ppi-0.1.0-candidate/reference spatial-ppi-0.2.0-candidate/
+cd spatial-ppi-0.2.0-candidate
 python code/verify_manifest.py
 ```
 
-GitHub may name the downloaded source ZIP differently; use its actual filename. The data archive retains its original version/root intentionally. The combined manifest verifies 113 recorded files; it is not an external signature. Source rasters, photographs, manuscript files and virtual environments are excluded. Preserve the source-rights notices in `reference/`.
+GitHub may name the downloaded source ZIP differently; use its actual filename. The data archive retains its original version/root intentionally. The combined manifest verifies the recorded baseline files and updated documentation; it is not an external signature. Source rasters, photographs, manuscript files and virtual environments are excluded. Preserve the source-rights notices in `reference/`.
 
 ## Environment
 

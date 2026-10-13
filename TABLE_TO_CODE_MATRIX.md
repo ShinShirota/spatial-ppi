@@ -18,3 +18,8 @@ Exact commands and paths: README.md. Fixed configurations: specs/ and inputs/pro
 |theory/code identities|PASS|theory_bridge.py|
 |slope boundary|PASS|slope_boundary.py|
 |source frame|PASS|rebuild_frame.py → compare_additional.py|
+
+
+## v0.2.0-candidate pilot addendum
+
+Supplement S6.6 / Table S8 is now distributed in the separate author-generated synthetic pilot archive. See [GROWING_RADIUS_PILOT.md](GROWING_RADIUS_PILOT.md) for scripts, complete retained outputs, rights, verification, and limitations. Original releases and their third-party rights remain unchanged.

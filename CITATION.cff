@@ -4,7 +4,7 @@ title: "Conditional validity of prediction-powered inference for spatially depen
 authors:
   - family-names: "Shirota"
     given-names: "Shinichiro"
-version: "0.1.1-candidate"
+version: "0.2.0-candidate"
 type: software
 license: BSD-3-Clause
 repository-code: "https://github.com/ShinShirota/spatial-ppi"
